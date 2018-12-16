@@ -17,7 +17,7 @@ This project's aim is to create an effective classifier that can classify an unk
 
 ## Hydrophobicity
 Very similar to the first iteration, the algorithm would determine the ratio of amino acids within the sequence. This time, however, three features were chosen: polar, neutral and hydrophobic. The hydrophobic dataset was joined with others to determine the optimum dataset.
-![image](images/hydro.png)
+![image](images/hydro.PNG)
 
 ## Oversampling
 One of the ways that we tried to improve our model is through the use of oversampling, more specifically we used SMOTE (Synthetic Minority Oversampling Technique). This image illustrates the way SMOTE works. Taken from the link above, it shows the way SMOTE draws lines between points of a certain class and creates new data objects along these lines.
